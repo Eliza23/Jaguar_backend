@@ -19,8 +19,7 @@
    <h3>  Instalar el Proyecto.</h3>
       <p> <strong> 1. </strong>Instalar Python 3.9.11 </br>
       <strong> https://www.python.org/ </strong> </p>
-      <p> <strong> 2. </strong> Crear una nueva carpeta. </p>
-      <p> <strong> 3. </strong> Descargar el proyecto desde el repositorio de github. <br>
+      <p> <strong> 2. </strong> Descargar el proyecto desde el repositorio de github. <br>
           <strong> git clone https://github.com/Eliza23/Jaguar_backend.git </strong>
       </p>
     
