@@ -26,12 +26,14 @@
 </section>
 
 <section class="mt-5">
-   <h3>  Instalar el Proyecto.</h3>
-      <p> <strong> 1. </strong>Instalar Python 3.9.11 </br>
-      <strong> https://www.python.org/ </strong> </p>
-      <p> <strong> 2. </strong> Descargar el proyecto desde el repositorio de github. <br>
-          <strong> git clone https://github.com/Eliza23/Jaguar_backend.git </strong>
-      </p>
-    
+   <h3> Crear lista de dependencia</h3>
+    <p> <strong> 1. </strong> Instalar dependencias. </br>
+	    <strong>  pip install nombre_paquete. </strong> </p>
+   <p> <strong> 2. </strong> Ver dependencias instalados. </br>
+	   <strong>  pip freeze </strong> </p>
+   <p> <strong> 3. </strong>  Crear elarchivo con la lista de dependencias. </br>
+	<strong> pip freeze > requeriments.txt </strong> </p>
+    <p> <strong> 4. </strong> Instalar la lista de dependencias del proyecto. </br>
+	<strong> pip install -r requeriments.txt </strong> </p>
 </section>
 
