@@ -25,7 +25,7 @@
     
 </section>
 
-<section class="mt-5">
+<section class="m-5">
    <h3> Crear lista de dependencia</h3>
     <p> <strong> 1. </strong> Instalar dependencias. </br>
 	    <strong>  pip install nombre_paquete. </strong> </p>
