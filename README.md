@@ -1,20 +1,17 @@
 # Proyecto Jaguar_backend
-<section>
-   <h3>  Creación de un proyecto con Django.</h3>
-   <div>
-      <p> <strong> 1. </strong>Instalar Python 3.9.11 </br>
-      <strong> https://www.python.org/ </strong> </p>
-      <p> <strong> 2. </strong> Crear el entorno virtual (en la carpeta dev, en este caso) <br>
-         <strong> python -m venv dev  </strong></p> 
-      <p> <strong> 3. </strong>  Activar el entorno virtual   <br> 
-         <strong>  cd dev </strong> <br> 
-         <strong>.\Scripts\activate </strong> </p> 
-      <p> <strong> 4. </strong>  Instalar django. <br>
-          <strong> python -m pip install Django </strong> </p>
-      <p> <strong> 5. </strong> Crear el proyecto jaguar-backend. <br>  
-          <strong> django-admin startproject jaguar_backend </strong> </p>
-   </div>
-</section>
+Creación de un proyecto con Django. 
+   Instalar Python 3.9.11 
+      https://www.python.org/ 
+   Crear el entorno virtual (en la carpeta dev, en este caso) 
+      python -m venv dev   
+   Activar el entorno virtual   
+      cd dev  
+      .\Scripts\activate  
+   Instalar django. 
+      python -m pip install Django  
+   Crear el proyecto jaguar-backend.   
+      django-admin startproject jaguar_backend  
+
 <section>
    <h3>  Instalar el Proyecto.</h3>
       <p> <strong> 1. </strong>Instalar Python 3.9.11 </br>
