@@ -1,17 +1,25 @@
 # Proyecto Jaguar_backend
 ## Creación de un proyecto con Django. 
 1. Instalar Python 3.9.11 <br>
-		https://www.python.org/  <br>
+[https://www.python.org/](link)
+		  <br>
 2. Crear el entorno virtual (en la carpeta dev, en este caso) <br>
-		python -m venv dev  <br> 
+```html 
+	python -m venv dev 
+```
 3. Activar el entorno virtual   <br> 
-   		cd dev  <br>
-   		.\Scripts\activate  <br>
+```html   		
+	cd dev 
+	.\Scripts\activate 
+```
 4. Instalar django. <br>
-		python -m pip install Django <br> 
+```html 
+	python -m pip install Django
+```
 5. Crear el proyecto jaguar-backend.   <br>
-		django-admin startproject jaguar_backend  <br>
-
+```html 
+	django-admin startproject jaguar_backend 
+```
 ## Instalar el Proyecto.
 1. Instalar Python 3.9.11 </br>
 https://www.python.org/   </br>
@@ -20,58 +28,75 @@ https://www.python.org/   </br>
 
 ## Crear lista de dependencia
 1. Instalar dependencias. <br>
+```html 
 	pip install nombre_paquete. 
+```
 2. Ver dependencias instalados. </br>
+```html 
 	pip freeze 
+```
 3. Crear elarchivo con la lista de dependencias. <br>
+```html 
 	pip freeze > requeriments.txt 
+```
 4. Instalar la lista de dependencias del proyecto. <br>
+```html 
 	pip install -r requeriments.txt 
-
+```
 ## Empaquetar proyecto Django
 1. Crear el proyecto con DJango (jaguar-backend) 
 2. Copiar el proyecto en una carpeta (jaguar_backend_dist)
 3. Dentro de la nueva carpeta, crear los archivos LICENCE, pyproyect.toml, README.md y setup.py 
 4. Copiar contenido en cada archivo. <br>
 4.1. En el archivo pyproyect.toml <br>
-		[build-system] </br>
-      requires = ["setuptools>=42"] </br>
-      build-backend = "setuptools.build_meta" </br>
+```html 
+	[build-system] 
+      	requires = ["setuptools>=42"] 
+      	build-backend = "setuptools.build_meta"
+```
 4.2. En el archivo setup.py  </br>
-      import setuptools </br>
-      with open("README.md", "r", encoding="utf-8") as fh: </br>
-         long_description = fh.read() </br>
-         setuptools.setup( </br>
-            name="example-package-YOUR-USERNAME-HERE", </br>
-            version="0.0.1", </br>
-            author="Example Author", </br>
-            author_email="author@example.com", </br>
-            description="A small example package", </br>
-            long_description=long_description, </br>
-            long_description_content_type="text/markdown", </br>
-            url="https://github.com/pypa/sampleproject", </br>
-            project_urls={ </br>
-               "Bug Tracker": "https://github.com/pypa/sampleproject/issues", </br>
-            }, </br>
-            classifiers=[ </br>
-               "Programming Language :: Python :: 3", </br>
-               "License :: OSI Approved :: MIT License", </br>
-               "Operating System :: OS Independent", </br>
-            ], </br>
-            package_dir={"": "jaguar_backend"}, </br>
-            packages=setuptools.find_packages(where="jaguar_backend"), </br>
-            python_requires=">=3.9", </br>
-         )  </p>
-5. Ejecutar los comandos para generar los paquetes de distribucion: </br>
-	<strong> py -m pip install --upgrade build </strong> </br>
-	<strong> py -m build </strong></p>
-6. Esto generara una nueva carpeta llamada dist que tiene 2 archivos: </br>
-	      El tar.gzq que es un archivo fuente y el .whl es una distribución construida. </br>
-            dist/</br>
-               example-package-YOUR-USERNAME-HERE-0.0.1-py3-none-any.whl</br>
-               example-package-YOUR-USERNAME-HERE-0.0.1.tar.gz
-7. Instalar el proyecto </br> 
-7.1. Descompirmir el archivo .tar.gz </br> 
-7.2. Ejecutar el comando python setup.py install
+```html 
+      import setuptools 
 
+      with open("README.md", "r", encoding="utf-8") as fh:
+         long_description = fh.read() 
+         setuptools.setup(
+            name="example-package-YOUR-USERNAME-HERE", 
+            version="0.0.1", 
+            author="Example Author", 
+            author_email="author@example.com",
+            description="A small example package", 
+            long_description=long_description, 
+            long_description_content_type="text/markdown", 
+            url="https://github.com/pypa/sampleproject", 
+            project_urls={ 
+               "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
+            }, 
+            classifiers=[ 
+               "Programming Language :: Python :: 3",
+               "License :: OSI Approved :: MIT License", 
+               "Operating System :: OS Independent", 
+            ],
+            package_dir={"": "jaguar_backend"}, 
+            packages=setuptools.find_packages(where="jaguar_backend"), 
+            python_requires=">=3.9",
+         )  
+```
+
+5. Ejecutar los comandos para generar los paquetes de distribucion: </br>
+```html 
+	py -m pip install --upgrade build
+	py -m build 
+```
+6. Esto generara una nueva carpeta llamada dist que tiene 2 archivos: </br>
+	* El tar.gzq que es un archivo fuente y el .whl es una distribución construida. </br>
+	* dist/ <br>
+   		example-package-YOUR-USERNAME-HERE-0.0.1-py3-none-any.whl</br>
+    		example-package-YOUR-USERNAME-HERE-0.0.1.tar.gz <br>
+7. Instalar el proyecto <br>
+7.1. Descompirmir el archivo .tar.gz <br>
+7.2. Ejecutar el comando  <br>
+```html 
+	python setup.py install
+```
 
