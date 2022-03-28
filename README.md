@@ -28,7 +28,7 @@ https://www.python.org/   </br>
 4. Instalar la lista de dependencias del proyecto. <br>
 	pip install -r requeriments.txt 
 
-## Empaquetar proyecto DJANGO
+## Empaquetar proyecto Django
 1. Crear el proyecto con DJango (jaguar-backend) 
 2. Copiar el proyecto en una carpeta (jaguar_backend_dist)
 3. Dentro de la nueva carpeta, crear los archivos LICENCE, pyproyect.toml, README.md y setup.py 
