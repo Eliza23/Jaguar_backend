@@ -35,7 +35,7 @@ https://www.python.org/   </br>
 ```html 
 	pip freeze 
 ```
-3. Crear elarchivo con la lista de dependencias. <br>
+3. Crear el archivo con la lista de dependencias. <br>
 ```html 
 	pip freeze > requeriments.txt 
 ```
