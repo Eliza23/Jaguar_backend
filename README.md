@@ -43,6 +43,35 @@ https://www.python.org/   </br>
 ```html 
 	pip install -r requeriments.txt 
 ```
+## Linter y Prettier
+### Linter
+1. Crear el archivo
+```html 
+	pylint --generate-rcfile > .pylintrc
+```
+2. Instalar pylint
+```html 
+	pip install pylint
+```
+3. Ejecutar las reglas de pylint sobre un archivo de python	
+```html 
+	pylint filename.py
+```
+### Prettier
+1.  instalar prettier
+```html 
+	npm install --global prettier
+```
+2. Crear los archivos .prettierrc.json y .prettierignore
+3. Formatear los archivos
+```html 
+	npx prettier --write nombre_archivo
+```
+4. Verificar que los archivos esten formateados. 
+```html 
+	npx prettier --check
+```
+
 ## Empaquetar proyecto Django
 1. Crear el proyecto con DJango (jaguar-backend) 
 2. Copiar el proyecto en una carpeta (jaguar_backend_dist)
