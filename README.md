@@ -4,7 +4,9 @@
 1. Instalar Python 3.9.11 </br>
 https://www.python.org/   </br>
 2. Descargar el proyecto desde el repositorio de github.   </br>
-3. git clone https://github.com/Eliza23/Jaguar_backend.git 
+```html
+	git clone https://github.com/Eliza23/Jaguar_backend.git 
+```
 4. Ejecutar un proyecto con Django
 ```html 
 	cd jaguar_backend
