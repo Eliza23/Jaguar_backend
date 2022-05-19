@@ -7,6 +7,7 @@ https://www.python.org/   </br>
 3. git clone https://github.com/Eliza23/Jaguar_backend.git 
 4. Ejecutar un proyecto con Django
 ```html 
+	cd jaguar_backend
 	python manage.py runserver
 ```
 ## Instalar lista de dependencias
