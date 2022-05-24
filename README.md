@@ -23,15 +23,19 @@ https://www.python.org/   </br>
 ```
 ## Linter y Prettier
 ### Linter
-1. Instalar pylint
+1. Activar el entorno virtual.<br> 	
+```html 	
+	.\Scripts\activate 
+```
+2. Instalar pylint
 ```html 
 	pip install pylint
 ```
-2. Crear el archivo
+3. Crear el archivo
 ```html 
 	pylint --generate-rcfile > .pylintrc
 ```
-3. Ejecutar las reglas de pylint sobre un archivo de python	
+4. Ejecutar las reglas de pylint sobre un archivo de python	
 ```html 
 	pylint filename.py
 ```
