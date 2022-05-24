@@ -23,13 +23,13 @@ https://www.python.org/   </br>
 ```
 ## Linter y Prettier
 ### Linter
-1. Crear el archivo
-```html 
-	pylint --generate-rcfile > .pylintrc
-```
-2. Instalar pylint
+1. Instalar pylint
 ```html 
 	pip install pylint
+```
+2. Crear el archivo
+```html 
+	pylint --generate-rcfile > .pylintrc
 ```
 3. Ejecutar las reglas de pylint sobre un archivo de python	
 ```html 
