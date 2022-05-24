@@ -38,9 +38,28 @@ https://www.python.org/   </br>
 ### Prettier
 1.  instalar prettier
 ```html 
-	npm install --global prettier
+	npm install --save-dev --save-exact prettier
 ```
 2. Crear los archivos .prettierrc.json y .prettierignore
+contenido del archivo prettierrc.json
+
+```html 
+	{ "semi": true,
+		"singleQuote": true,
+		"printWidth": 80,
+		"trailingComma": "es5",
+		"tabWidth": 4,
+		"overrides": [ 
+			{ "files": "*.test.js",
+			   "options": 
+				{ "semi": true  }
+			 }, { "files": ["*.html", "legacy/**/*.js"],
+					"options": 
+					{  "tabWidth": 4 }
+		} 
+	] 
+}
+```
 3. Formatear los archivos
 ```html 
 	npx prettier --write nombre_archivo
