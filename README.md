@@ -115,6 +115,7 @@ contenido del archivo prettierrc.json
 
 5. Ejecutar los comandos para generar los paquetes de distribucion: </br>
 ```html 
+	.\Scripts\activate 
 	python -m pip install --upgrade build
 	python -m build 
 ```
